@@ -19,20 +19,20 @@ GAME: The Bot guessed the Number 23. You<br>
 
 __Number 2: The Bot Wins:__
 
-- The Bot is guessing a number 18 and 39<br>
-                Please inser your Number -<br>
-                                       27-<br>
-- The Bot guessed the Number 23. He <br>
-  outguessed you and gained <br>
-  +10pts.<br>
+BOT:  The Bot is guessing a number 18 and 39<br>
+GAME: Please inser your Number<br>
+YOU:  27<br>
+GAME: The Bot guessed the Number 23. He <br>
+      outguessed you and gained <br>
+      +10pts.<br>
   
 __Number 3: Draw:__
 
-- The Bot is guessing a number 18 and 39
-                Please inser your Number -
-                                       27-
-- Lucky Boy! You both guessed the same
-  Number! Nobody gained points.
+BOT:  The Bot is guessing a number 18 and 39<br>
+GAME: Please inser your Number<br>
+YOU:  27<br>
+GAME: Lucky Boy! You both guessed the same
+      Number! Nobody gained points.
   
   
 specific Rounds can get canceled if you guess a Number outside the spectrum of the Bot.
@@ -42,30 +42,31 @@ specific Rounds can get canceled if you guess a Number outside the spectrum of t
 The **Arcade** Mode is an endless Mode. You have three lives and anytime you "underguess" the Bot, you lose a Live. The Bot tells you his Guessing Spektrum before each round. Because there is a much larger Variety of Numbers the Bot can guess, you get +5 points if you both guess the same Number.
 **There are 3 possible Ways for a Match to go**
   
-  __Number 1: The Player wins:__
+ __Number 1: The Player wins:__
 
-- The Bot is guessing a number 18 and 39
-                Please inser your Number -
-                                       27-
-- The Bot guessed the Number 23. You 
-  outguessed the Bot and gained 
-  +10pts.
+BOT:  The Bot is guessing a number 18 and 39<br>
+GAME: Please inser your Number<br>
+YOU:  27<br>
+GAME: The Bot guessed the Number 23. You<br> 
+      outguessed the Bot and gained <br>
+      +10pts.<br>
 
 __Number 2: The Bot Wins:__
 
-- The Bot is guessing a number 18 and 39
-                Please inser your Number -
-                                       27-
-- The Bot guessed the Number 23. He 
-  outguessed you. You loose a Live
+BOT:  The Bot is guessing a number 18 and 39<br>
+GAME: Please inser your Number<br>
+YOU:  27<br>
+GAME: The Bot guessed the Number 23. He <br>
+      outguessed you and gained <br>
+      +10pts.<br>
   
 __Number 3: Draw:__
 
-- The Bot is guessing a number 18 and 39
-                Please inser your Number -
-                                       27-
-- Lucky Boy! You both guessed the same
-  Number! You get +5pts!
+BOT:  The Bot is guessing a number 18 and 39<br>
+GAME: Please inser your Number<br>
+YOU:  27<br>
+GAME: Lucky Boy! You both guessed the same
+      Number! You gained +5pts
   
   
  Once the Match ends, your score gets saved so you can make Highscores. There's also a League System. Based of your score in the Match,you get a random Number of League Points. 
