@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Guess the Number
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I don't think i have to explain what the Game is about. It's pretty self explaining. The Game has two Modes. `Quick Match` and `Arcade`.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The **Quick Match** contains 10 rounds in which you have to "overguess" your Enemy, a Bot instance which picks it's Numbers randomly. 
+**These are the 3 Types, how a round can go**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+__Number 1: The Player wins:__
 
-### `npm test`
+- The Bot is guessing a number 18 and 39
+                Please inser your Number -
+                                       27-
+- The Bot guessed the Number 23. You 
+  outguessed the Bot and gained 
+  +10pts.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+__Number 2: The Bot Wins:__
 
-### `npm run build`
+- The Bot is guessing a number 18 and 39
+                Please inser your Number -
+                                       27-
+- The Bot guessed the Number 23. He 
+  outguessed you and gained 
+  +10pts.
+  
+__Number 3: Draw:__
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- The Bot is guessing a number 18 and 39
+                Please inser your Number -
+                                       27-
+- Lucky Boy! You both guessed the same
+  Number! Nobody gained points.
+  
+  
+specific Rounds can get canceled if you guess a Number outside the spectrum of the Bot.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  
+The **Arcade** Mode is an endless Mode. You have three lives and anytime you "underguess" the Bot, you lose a Live. The Bot tells you his Guessing Spektrum before each round. Because there is a much larger Variety of Numbers the Bot can guess, you get +5 points if you both guess the same Number.
+**There are 3 possible Ways for a Match to go**
+  
+  __Number 1: The Player wins:__
 
-### `npm run eject`
+- The Bot is guessing a number 18 and 39
+                Please inser your Number -
+                                       27-
+- The Bot guessed the Number 23. You 
+  outguessed the Bot and gained 
+  +10pts.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+__Number 2: The Bot Wins:__
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- The Bot is guessing a number 18 and 39
+                Please inser your Number -
+                                       27-
+- The Bot guessed the Number 23. He 
+  outguessed you. You loose a Live
+  
+__Number 3: Draw:__
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- The Bot is guessing a number 18 and 39
+                Please inser your Number -
+                                       27-
+- Lucky Boy! You both guessed the same
+  Number! You get +5pts!
+  
+  
+ Once the Match ends, your score gets saved so you can make Highscores. There's also a League System. Based of your score in the Match,you get a random Number of League Points. 
+ 
+ 
+ 
+ 
+ # Menu
+ 
+ there are two Types of Menus. The `Starting Menu` and the `main Menu`. The Starting Menu gives you two options to choose.
+ *1. QUICK MATCH*
+ *2. ARCADE*
+ 
+ The main Menu gives you the same options, but it also displays your current Highscore and your current League. 
+ **So as long as i havent wrote a Login Script, remember to ou the exact same Username each time you Log In**
+ 
+ 
+ ## Currently Working on
+ 
+  - Log In function -> 2 Menus => 1 Menu
+  - Windowed Version (REACT? ANGULAR?)
+  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
