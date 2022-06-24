@@ -14,8 +14,7 @@ BOT:  The Bot is guessing a number 18 and 39<br>
 GAME: Please inser your Number<br>
 YOU:  27<br>
 GAME: The Bot guessed the Number 23. You<br> 
-      outguessed the Bot and gained <br>
-      +10pts.<br>
+      outguessed the Bot and gained +10pts.<br>
 
 __Number 2: The Bot Wins:__
 
@@ -23,8 +22,7 @@ BOT:  The Bot is guessing a number 18 and 39<br>
 GAME: Please inser your Number<br>
 YOU:  27<br>
 GAME: The Bot guessed the Number 23. He <br>
-      outguessed you and gained <br>
-      +10pts.<br>
+      outguessed you and gained +10pts.<br>
   
 __Number 3: Draw:__
 
@@ -48,8 +46,7 @@ BOT:  The Bot is guessing a number 18 and 39<br>
 GAME: Please inser your Number<br>
 YOU:  27<br>
 GAME: The Bot guessed the Number 23. You<br> 
-      outguessed the Bot and gained <br>
-      +10pts.<br>
+      outguessed the Bot and gained +10pts.<br>
 
 __Number 2: The Bot Wins:__
 
@@ -57,8 +54,7 @@ BOT:  The Bot is guessing a number 18 and 39<br>
 GAME: Please inser your Number<br>
 YOU:  27<br>
 GAME: The Bot guessed the Number 23. He <br>
-      outguessed you and gained <br>
-      +10pts.<br>
+      outguessed you and gained +10pts.<br>
   
 __Number 3: Draw:__
 
