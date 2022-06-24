@@ -10,21 +10,21 @@ The **Quick Match** contains 10 rounds in which you have to "overguess" your Ene
 
 __Number 1: The Player wins:__
 
-- The Bot is guessing a number 18 and 39<br>
-                Please inser your Number -<br>
-                                       27-<br>
-- The Bot guessed the Number 23. You 
-  outguessed the Bot and gained 
-  +10pts.
+BOT:  The Bot is guessing a number 18 and 39<br>
+GAME: Please inser your Number<br>
+YOU:  27<br>
+GAME: The Bot guessed the Number 23. You<br> 
+      outguessed the Bot and gained <br>
+      +10pts.<br>
 
 __Number 2: The Bot Wins:__
 
-- The Bot is guessing a number 18 and 39
-                Please inser your Number -
-                                       27-
-- The Bot guessed the Number 23. He 
-  outguessed you and gained 
-  +10pts.
+- The Bot is guessing a number 18 and 39<br>
+                Please inser your Number -<br>
+                                       27-<br>
+- The Bot guessed the Number 23. He <br>
+  outguessed you and gained <br>
+  +10pts.<br>
   
 __Number 3: Draw:__
 
